@@ -1,0 +1,91 @@
+.banner {
+  width: 100%;
+  background-color: var(--light-grey);
+  padding: 196px 0px 201px 0px;
+  border-radius: 0px 0px 40px 40px;
+  -webkit-border-radius: 0px 0px 40px 40px;
+  -moz-border-radius: 0px 0px 40px 40px;
+  -ms-border-radius: 0px 0px 40px 40px;
+  -o-border-radius: 0px 0px 40px 40px;
+}
+
+.banner-content {
+  max-width: 801px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+/* Кнопка баннера */
+.banner-button {
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--orange-juice);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 21px 0px 21px 0px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+
+.banner-button:hover {
+  background-color: #ff9832;
+}
+
+.banner-button:active {
+  background-color: #cd3400;
+}
+
+@media (max-width: 1300px) {
+  .banner-content {
+    max-width: 500px;
+  }
+
+  .banner-button {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  .banner {
+    width: 100%;
+    background-color: var(--light-grey);
+    padding: 170px 0px 100px 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .banner-content {
+    width: 100%;
+    max-width: 100%;
+    gap: 24px;
+  }
+
+  .banner-button {
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}

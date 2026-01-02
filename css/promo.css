@@ -1,0 +1,154 @@
+.promo-section {
+  width: 100%;
+  padding: 120px 0px 120px 0px;
+  background-color: var(--white);
+}
+
+.promo-title {
+  padding: 0px 0px 40px 0px;
+}
+
+.promo-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 100%;
+}
+
+.promo-card {
+  width: calc(50% - 12px);
+  height: 349px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--light-grey);
+  border-radius: 30px;
+  overflow: hidden;
+  gap: 24px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.promo-card-content {
+  max-width: 466px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 60px 0px 60px 40px;
+}
+
+.promo-card-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--dark-grey);
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.--special {
+  display: flex;
+  align-items: flex-start;
+}
+
+.promo-card-star {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+}
+
+.promo-card-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--grey);
+}
+
+.promo-card-image {
+  width: 364px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.promo-image {
+  width: 364px;
+  object-fit: cover;
+}
+
+@media (max-width: 1700px) {
+  .promo-card-title {
+    font-size: 28px;
+    line-height: 28px;
+    padding: 0px;
+  }
+
+  .promo-card-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .promo-card-content {
+    padding: 30px 0px 30px 30px;
+  }
+
+  .promo-card-title {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 0px;
+  }
+
+  .promo-card-text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .promo-section {
+    padding: 94px 0px 94px 0px;
+  }
+
+  .promo-cards {
+    justify-content: center;
+  }
+
+  .promo-card {
+    width: 600px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo-card {
+    width: 100%;
+    height: 290px;
+  }
+}
+
+@media (max-width: 560px) {
+  .promo-card {
+    width: 100%;
+    height: 349px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo-card-image {
+    width: 100%;
+    height: 175px;
+  }
+}

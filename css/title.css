@@ -1,0 +1,107 @@
+/* Заголовок баннера */
+.banner-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: left;
+}
+
+.banner-title-first {
+  display: block;
+  color: var(--orange-juice);
+}
+
+.banner-title-second {
+  display: block;
+  color: var(--dark-grey);
+}
+
+
+/* Подзаголовок баннера */
+.banner-subtitle {
+  max-width: 617px;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--dark-grey);
+  text-align: left;
+}
+
+@media (max-width: 1300px) {
+  .banner-title {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .banner-subtitle {
+    max-width: 580px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 780px) {
+  .banner-title {
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .banner-subtitle {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 34px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .banner-subtitle {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+
+/* Заголовки для секций */
+.title-section {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.title-section-first {
+  color: var(--dark-grey);
+  display: block;
+}
+
+.title-section-second {
+  color: var(--orange-juice);
+  display: block;
+}
+
+@media (max-width: 1300px) {
+  .title-section {
+    font-size: 36px;
+    line-height: 36px;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .title-section {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
