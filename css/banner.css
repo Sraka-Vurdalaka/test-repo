@@ -17,6 +17,22 @@
   position: relative;
 }
 
+.banner-decor {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+.--decor-1 {
+  top: 282px;
+  right: -140px;
+}
+
+.--decor-2 {
+  top: 0px;
+  right: -900px;
+}
+
 /* Кнопка баннера */
 .banner-button {
   cursor: pointer;
@@ -87,5 +103,9 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+  }
+
+  .banner-decor {
+    display: none;
   }
 }
