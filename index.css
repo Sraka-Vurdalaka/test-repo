@@ -1,0 +1,56 @@
+@import url('./css/header.css');
+@import url('./css/title.css');
+@import url('./css/banner.css');
+@import url('./css/tabs.css');
+@import url('./css/promo.css');
+@import url('./css/footer.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif;
+  line-height: 1.6;
+}
+
+.center-conteiner {
+  max-width: 1767px;
+  margin: 0px auto;
+}
+
+@media (max-width: 1810px) {
+  .center-conteiner {
+    padding: 0px 20px;
+  }
+}
+
+p {
+  margin: 0px;
+}
+
+:root {
+  --dark-grey: #2d2d2d;
+  --light-grey: #f6f6f6;
+  --grey: #808080;
+  --grey-2: #c0c0c0;
+  --white: #ffffff;
+  --black: #000000;
+  --orange-juice: #ff6600;
+}
+
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+/* .inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
